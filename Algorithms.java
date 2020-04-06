@@ -52,12 +52,5 @@ class Algorithms {
    }
 
 
-   public static void main(String[] args){
-      System.out.println("Logarithmic algorithm's running times:" + System.nanoTime()); 
-      linearAlgorithm(1000);
-      System.out.println(System.nanoTime());
-      
-   }  
-
 
 }
