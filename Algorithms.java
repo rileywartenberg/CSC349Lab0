@@ -35,7 +35,7 @@ class Algorithms {
    public static void logarithmicAlgorithm(long N)
    {
       int x;
-      for(int i = N; i >= 1; i/2)
+      for(int i = N; i >= 1; i = i/2)
          x = 1;
    }
 
@@ -44,7 +44,7 @@ class Algorithms {
       int x;
       for(int i = 1; i <= N; i++)
       {
-         for(int j = N; j >= 1; j/2)
+         for(int j = N; j >= 1; j = j/2)
             x = 1;
       }
    }
