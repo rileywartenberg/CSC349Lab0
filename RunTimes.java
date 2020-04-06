@@ -1,7 +1,7 @@
 //RunTimes class for lab0
 
 import java.util.*;
-import java.lang.System.*;
+import java.lang.*;
 
 class RunTimes{
 
@@ -9,11 +9,11 @@ class RunTimes{
    {
       long startTime = 0, endTime = 0, runningTime;
       System.out.println("Logarithmic algorithm's running times:"); 
-      startTime = nanoTime()/100000000;
+      startTime = System.nanoTime()/100000000;
       logarithmicAlgorithm(1000);
-      endTime = nanoTime()/100000000;
+      endTime = System.nanoTime()/100000000;
+      runningTime = endTime - startTime;
       System.out.println("T(1000) = " + endTime - startTime);
-      
 
    }
 
